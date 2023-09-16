@@ -1,0 +1,64 @@
+[
+    {
+"id": 1,
+"nombre": "Botín Munich 1",
+"marca": "Munich",
+"precio": 100,
+"imagen": "MUNICH1.jpg"
+    },
+    {
+"id": 2,
+"nombre": "Botín Munich 2",
+"marca": "Munich",
+"precio": 120,
+"imagen": "MUNICH2.jpg"
+    },
+    {
+"id": 3,
+"nombre": "Botín Munich 3",
+"marca": "Munich",
+"precio": 90,
+"imagen": "MUNICH3.jpg"
+    },
+    {
+"id": 4,
+"nombre": "Botín Kelme 1",
+"marca": "Kelme",
+"precio": 80,
+"imagen": "KELME1.jpg"
+    },
+    {
+"id": 5,
+"nombre": "Botín Kelme 2",
+"marca": "Kelme",
+"precio": 110,
+"imagen": "KELME2.jpg"
+    },
+    {
+"id": 6,
+"nombre": "Botín Kelme 3",
+"marca": "Kelme",
+"precio": 95,
+"imagen": "KELME3.jpg"
+    },
+    {
+"id": 7,
+"nombre": "Botín Nike 1",
+"marca": "Nike",
+"precio": 130,
+"imagen": "NIKE1.jpg"
+    },
+    {
+"id": 8,
+"nombre": "Botín Nike 2",
+"marca": "Nike",
+"precio": 150,
+"imagen": "NIKE2.jpg"
+    },
+    {
+"id": 9,
+"nombre": "Botín Nike 3",
+"marca": "Nike",
+"precio": 125,
+"imagen": "NIKE3.jpg"
+    }]

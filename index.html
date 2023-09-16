@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tienda de Botines</title>
+<link rel="stylesheet" href="estilosindex.css
+">
+</head>
+
+<body>
+<header>
+    <h1>Tienda de Botines</h1>
+</header>
+
+<main>
+    <nav id="marcas-menu">
+    <button id="inicio-btn">Inicio</button>
+    <ul>
+        <li data-marca="Munich">Munich</li>
+        <li data-marca="Kelme">Kelme</li>
+        <li data-marca="Nike">Nike</li>
+    </ul>
+    </nav>
+
+    <section id="botines-container">
+    <div class="botin-image">
+        <img src="img/MUNICH1.jpg" alt="Botín Munich 1">
+        <h3>Botín Munich 1</h3>
+        <p>Marca: Munich</p>
+        <p>Precio: $100</p>
+        <button onclick="agregarAlCarrito(1)">Agregar al Carrito</button>
+    </div>
+    <div class="botin-image">
+        <img src="img/MUNICH2.jpg" alt="Botín Munich 2">
+        <h3>Botín Munich 2</h3>
+        <p>Marca: Munich</p>
+        <p>Precio: $120</p>
+        <button onclick="agregarAlCarrito(2)">Agregar al Carrito</button>
+    </div>
+    <div class="botin-image">
+        <img src="img/MUNICH3.jpg" alt="Botín Munich 3">
+        <h3>Botín Munich 3</h3>
+        <p>Marca: Munich</p>
+        <p>Precio: $90</p>
+        <button onclick="agregarAlCarrito(3)">Agregar al Carrito</button>
+    </div>
+
+    <div class="botin-image">
+        <img src="img/KELME1.jpg" alt="Botín Kelme 1">
+        <h3>Botín Kelme 1</h3>
+        <p>Marca: Kelme</p>
+        <p>Precio: $80</p>
+        <button onclick="agregarAlCarrito(4)">Agregar al Carrito</button>
+    </div>
+    <div class="botin-image">
+        <img src="img/KELME2.jpg" alt="Botín Kelme 2">
+        <h3>Botín Kelme 2</h3>
+        <p>Marca: Kelme</p>
+        <p>Precio: $110</p>
+        <button onclick="agregarAlCarrito(5)">Agregar al Carrito</button>
+    </div>
+    <div class="botin-image">
+        <img src="img/KELME3.jpg" alt="Botín Kelme 3">
+        <h3>Botín Kelme 3</h3>
+        <p>Marca: Kelme</p>
+        <p>Precio: $95</p>
+        <button onclick="agregarAlCarrito(6)">Agregar al Carrito</button>
+    </div>
+
+
+    <div class="botin-image">
+        <img src="img/NIKE1.jpg" alt="Botín Nike 1">
+        <h3>Botín Nike 1</h3>
+        <p>Marca: Nike</p>
+        <p>Precio: $130</p>
+        <button onclick="agregarAlCarrito(7)">Agregar al Carrito</button>
+    </div>
+    <div class="botin-image">
+        <img src="img/NIKE2.jpg" alt="Botín Nike 2">
+        <h3>Botín Nike 2</h3>
+        <p>Marca: Nike</p>
+        <p>Precio: $150</p>
+        <button onclick="agregarAlCarrito(8)">Agregar al Carrito</button>
+    </div>
+    <div class="botin-image">
+        <img src="img/NIKE3.jpg" alt="Botín Nike 3">
+        <h3>Botín Nike 3</h3>
+        <p>Marca: Nike</p>
+        <p>Precio: $125</p>
+        <button onclick="agregarAlCarrito(9)">Agregar al Carrito</button>
+    </div>
+    </section>
+
+<section id="carrito-container">
+    <h2>Carrito de Compras</h2>
+    <ul id="carrito-lista">
+
+    </ul>
+    <p>Total: $<span id="carrito-total">0</span></p>
+    <button id="comprar-btn">Comprar</button>
+    <button id="vaciar-carrito">Vaciar Carrito</button>
+</section>
+<section id="checkout-form" style="display: none;">
+    <h2>Checkout</h2>
+    <form id="customer-info-form">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" required>
+      <br>
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" required>
+      <br>
+      <label for="address">Dirección de Envío:</label>
+      <textarea id="address" required></textarea>
+      <br>
+      <button type="submit">Realizar Pedido</button>
+    </form>
+  </section>
+</main>
+
+<script src="app.js"></script>
+<script src="checkout.js"></script>
+</body>
+
+</html>
+
